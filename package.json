@@ -1,0 +1,31 @@
+{
+  "name": "url-handle",
+  "version": "0.1.3",
+  "description": "deal with url",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "babel src -d lib -w",
+    "prepublish": "babel  src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helinjiang/url-handler.git"
+  },
+  "keywords": [
+    "url"
+  ],
+  "author": "helinjiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helinjiang/url-handler/issues"
+  },
+  "homepage": "https://github.com/helinjiang/url-handler#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-loose": "^8.0.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.0"
+  }
+}
