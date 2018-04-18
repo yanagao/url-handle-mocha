@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "dev": "babel src -d lib -w",
-    "prepublish": "babel  src -d lib"
+    "prepublish": "babel  src -d lib",
+    "test": "mocha --compilers js:babel-core/register"
   },
   "repository": {
     "type": "git",
